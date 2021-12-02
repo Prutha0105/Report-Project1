@@ -91,14 +91,14 @@ FROM            ItemMaster</CommandText>
                       <CellContents>
                         <Rectangle Name="List1_Contents">
                           <ReportItems>
-                            <Textbox Name="ItemId">
+                            <Textbox Name="BrandId1">
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!ItemId.Value</Value>
+                                      <Value>=Sum(Fields!BrandId.Value)</Value>
                                       <Style>
                                         <FontFamily />
                                         <FontSize>14pt</FontSize>
@@ -108,7 +108,7 @@ FROM            ItemMaster</CommandText>
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <rd:DefaultName>ItemId</rd:DefaultName>
+                              <rd:DefaultName>BrandId1</rd:DefaultName>
                               <Height>0.27in</Height>
                               <Width>5in</Width>
                               <Style>
@@ -457,7 +457,7 @@ FROM            ItemMaster</CommandText>
                                                                 <Paragraph>
                                                                   <TextRuns>
                                                                     <TextRun>
-                                                                      <Value>=Fields!CategoryId.Value</Value>
+                                                                      <Value>=Sum(Fields!CategoryId.Value)</Value>
                                                                       <Style>
                                                                         <FontFamily />
                                                                         <Color>#333333</Color>

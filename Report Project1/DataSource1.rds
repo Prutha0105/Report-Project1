@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSource1">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=PRUTHA-PC;Initial Catalog=DbPrutha_1717</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>383a8156-f636-4d96-ac62-041835db32c6</DataSourceID>
+</RptDataSource>
