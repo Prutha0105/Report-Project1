@@ -54,8 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <Report Include="BrandWiseOrder.rdl" />
+    <Report Include="CustomerReport.rdl" />
     <Report Include="ItemMasterReport.rdl" />
+    <Report Include="ItemReport.rdl" />
     <Report Include="OrderReport.rdl" />
+    <Report Include="Report1.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
